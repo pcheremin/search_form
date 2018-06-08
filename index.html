@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Project
+    </title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+        <div class="wrapper">
+            <div class="content">
+                <div class="filter">
+                    <div class="city">
+                        <h3>
+                            CITY
+                        </h3>
+                        <select name="city" id="city" class="select">
+                        <!--Adding city dynamically-->
+                        </select>
+                    </div>
+                    <div class="categories">
+                        <h3>
+                            CATEGORIES
+                        </h3>
+                        <!--Adding categories dynamically-->
+                    </div>
+                    <div class="pr">
+                        <h3>PRICE</h3>
+                        <div class="slider"></div>
+                        <p align="center" id="price">$ <span id="left_count">50</span> - $ <span id="right_count">150</span></p>
+                        <button id="submit">FILTER</button>
+                    </div>
+                </div>
+                <div class="main">
+                    <!--Adding Products dynamically-->
+                </div>
+            </div>
+        </div>
+
+        <script src="jquery/jquery-1.12.4.js"></script>
+        <script src="jquery/jquery-ui.js"></script>
+
+        <script src="data/data.js"></script>
+        <script src="data/category.js"></script>
+        <script src="js/script.js"></script>
+
+        <script>
+
+            // Code of the Slider
+            $(document).ready(function(){
+                $( ".slider" ).slider({
+                    animate: true,
+                    min: 1,
+                    max: 200,
+                    range: true,
+                    step: 1,
+                    values: [1, 200],
+                    slide: function(event, ui) {
+                        $( "#left_count" ).html(ui.values[ 0 ]);
+                        $( "#right_count" ).html(ui.values[ 1 ]);
+                    }
+                });
+            });
+
+        </script>
+</body>
+</html>

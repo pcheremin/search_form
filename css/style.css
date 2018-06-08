@@ -1,0 +1,704 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@media (min-device-width: 1200px) {
+
+    html {
+        font-size: 15px;
+    }
+
+    body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #dedfe0;
+}
+
+.select,
+.checkbox-custom,
+.label {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.87rem;
+    font-weight: 200;
+    color: #c0c2c6;
+}
+
+h3,
+h4,
+#price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+h4,
+#price {
+    font-size: 1rem;
+}
+
+#price {
+    color: black;
+    font-weight: bold;
+}
+
+#submit {
+    color: white;
+    font-size: 14px;
+}
+
+
+.wrapper {
+    width: 100%;
+    height: 760px;
+    margin: 170px 0;
+    background-color: white;
+    padding-top: 55px;
+}
+
+.content {
+    width: 1170px;
+    margin: auto;
+    height: 74%;
+}
+
+.filter {
+    width: 31%;
+    height: 100%;
+    float: left;
+}
+
+.city {
+    width: 100%;
+    height: 20%;
+}
+
+.categories {
+    width: 100%;
+    height: 44%;
+}
+.pr {
+    width: 100%;
+    height: 36%;
+}
+
+.select {
+    width: 80%;
+    border-color: #dee0e1;
+    padding: 12px 0 12px 12px;
+}
+
+.checkbox {
+    display: none;
+}
+
+.checkbox-custom {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #d5d7d8;
+    border-radius: 1px;
+}
+
+.checkbox-custom,
+.label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 1px 0px;
+}
+
+.checkbox:checked + .checkbox-custom::before {
+    content: "\2713";
+    color: #25bbff;
+    font-weight: bolder;
+    display: block;
+    position: absolute;
+    left: 2px;
+}
+
+   .slider {
+       width: auto;
+       height: 3px;
+       background-color: #d6d9e1;
+       position: relative;
+       margin: 10% 20% 10% 0%;
+   }
+
+   .ui-slider-handle {
+       top:-7px;
+       left:0;
+       position: absolute;
+       width: 10px; height: 14px;
+       border-radius: 10px;
+       border: 2px solid #1cb8ff;
+       padding-right: 5px;
+       margin-left: -8px;
+       background-color: white;
+   }
+
+   .ui-widget-header {
+       height: 3px;
+       top:0;
+       left: 2px;
+       position: relative;
+       background-color: #1cb8ff}
+
+.slider + p#price {
+    float: left;
+    padding: 0;
+    font-size: 1rem;
+    margin-top: 2%;
+}
+
+#submit {
+    border: 0;
+    background-color: #25bbff;
+    float: right;
+    width: 35%;
+    height: 15%;
+    margin-right: 20%;
+    cursor: pointer;
+}
+
+.main {
+    width: 69%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.main > div{
+    width: 31%;
+    margin: 0 2% 2% 0;
+    height: 47.5%;
+    float: left;
+    border: 1px solid #e9e9e9;
+    position: relative;
+}
+
+.main > div:hover{
+    cursor: pointer;
+    width: 31%;
+    margin: 0 2% 2% 0;
+    height: 47.5%;
+    background-color: #57c2f2;
+    border: 1px solid #57c2f2;
+    opacity: 0.5;
+}
+
+img {
+    width: 100%;
+
+}
+
+h4, p {
+    padding: 0;
+    margin: 0;
+}
+.main .picture {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.main .description {
+    width: 100%;
+    height: 50%;
+}
+
+p {
+    display: inline-block;
+    padding: 0 18px;
+}
+
+h3 {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    padding: 18px;
+}
+
+#price {
+    float: right;
+}
+
+.mainCity {
+    display: block;
+    margin-top: -10%;
+ }
+}
+
+
+
+@media (min-device-width: 768px) and (max-device-width: 1199px){
+
+    html {
+        font-size: 14px;
+    }
+
+    body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #dedfe0;
+}
+
+
+.select,
+.checkbox-custom,
+.label {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.87rem;
+    font-weight: 200;
+    color: #c0c2c6;
+}
+h3,
+h4,
+#price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+h4,
+#price {
+    font-size: 1rem;
+}
+
+#price {
+    color: black;
+    font-weight: bold;
+}
+
+#submit {
+    color: white;
+    font-size: 14px;
+}
+
+
+.wrapper {
+    width: 100%;
+    height: 760px;
+    margin: 150px 0;
+    background-color: white;
+    padding-top: 55px;
+}
+
+.content {
+    width: 860px;
+    margin: auto;
+    height: 74%;
+}
+
+.filter {
+    width: 31%;
+    height: 100%;
+    float: left;
+}
+
+.city {
+    width: 100%;
+    height: 20%;
+}
+
+.categories {
+    width: 100%;
+    height: 44%;
+}
+.pr {
+    width: 100%;
+    height: 36%;
+}
+
+.select {
+    width: 80%;
+    border-color: #dee0e1;
+    padding: 12px 0 12px 12px;
+}
+
+.checkbox {
+    display: none;
+}
+
+.checkbox-custom {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #d5d7d8;
+    border-radius: 1px;
+}
+
+.checkbox-custom,
+.label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 1px 0px;
+}
+
+.checkbox:checked + .checkbox-custom::before {
+    content: "\2713";
+    color: #25bbff;
+    font-weight: bolder;
+    display: block;
+    position: absolute;
+    left: 2px;
+}
+
+   .slider {
+       width: auto;
+       height: 3px;
+       background-color: #d6d9e1;
+       position: relative;
+       margin: 10% 20% 10% 0%;
+   }
+
+   .ui-slider-handle {
+       top:-7px;
+       left:0;
+       position: absolute;
+       width: 10px; height: 14px;
+       border-radius: 10px;
+       border: 2px solid #1cb8ff;
+       padding-right: 5px;
+       margin-left: -8px;
+       background-color: white;
+   }
+
+   .ui-widget-header {
+       height: 3px;
+       top:0;
+       left: 2px;
+       position: relative;
+       background-color: #1cb8ff}
+
+.slider + p#price {
+    float: left;
+    padding: 0;
+    font-size: 1rem;
+    margin-top: 2%;
+}
+
+#submit {
+    border: 0;
+    background-color: #25bbff;
+    float: right;
+    width: 35%;
+    height: 15%;
+    margin-right: 20%;
+    cursor: pointer;
+}
+
+.main {
+    width: 69%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.main > div{
+    width: 31%;
+    margin: 0 2% 2% 0;
+    height: 47.5%;
+    float: left;
+    border: 1px solid #e9e9e9;
+    position: relative;
+}
+
+.main > div:hover{
+    cursor: pointer;
+    width: 31%;
+    margin: 0 2% 2% 0;
+    height: 47.5%;
+    background-color: #57c2f2;
+    border: 1px solid #57c2f2;
+    opacity: 0.5;
+}
+
+img {
+    width: 100%;
+
+}
+
+h4, p {
+    padding: 0;
+    margin: 0;
+}
+.main .picture {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.main .description {
+    width: 100%;
+    height: 50%;
+}
+
+p {
+    display: inline-block;
+    padding: 0 18px;
+}
+
+h3 {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    padding: 18px;
+}
+
+#price {
+    float: right;
+}
+
+.mainCity {
+    display: block;
+    margin-top: -16%;
+ }
+}
+
+@media (max-device-width: 767px) {
+
+   html {
+        font-size: 16px;
+    }
+
+    body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #dedfe0;
+}
+
+
+
+.select,
+.checkbox-custom,
+.label {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.87rem;
+    font-weight: 200;
+    color: #c0c2c6;
+}
+h3,
+h4,
+#price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+h4,
+#price {
+    font-size: 1rem;
+}
+
+#price {
+    color: black;
+    font-weight: bold;
+}
+
+#submit {
+    color: white;
+    font-size: 14px;
+}
+
+
+.wrapper {
+    width: 100%;
+    height: 760px;
+    margin: 180px 0;
+    background-color: white;
+    padding-top: 55px;
+}
+
+.content {
+    width: 860px;
+    margin: auto;
+    height: 74%;
+}
+
+.filter {
+    width: 31%;
+    height: 100%;
+    float: left;
+}
+
+.city {
+    width: 100%;
+    height: 20%;
+}
+
+.categories {
+    width: 100%;
+    height: 44%;
+}
+.pr {
+    width: 100%;
+    height: 36%;
+}
+
+.select {
+    width: 80%;
+    border-color: #dee0e1;
+    padding: 12px 0 12px 12px;
+}
+
+.checkbox {
+    display: none;
+}
+
+.checkbox-custom {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #d5d7d8;
+    border-radius: 1px;
+}
+
+.checkbox-custom,
+.label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 1px 0px;
+}
+
+.checkbox:checked + .checkbox-custom::before {
+    content: "\2713";
+    color: #25bbff;
+    font-weight: bolder;
+    display: block;
+    position: absolute;
+    left: 2px;
+}
+
+   .slider {
+       width: auto;
+       height: 3px;
+       background-color: #d6d9e1;
+       position: relative;
+       margin: 10% 20% 10% 0%;
+   }
+
+   .ui-slider-handle {
+       top:-7px;
+       left:0;
+       position: absolute;
+       width: 10px; height: 14px;
+       border-radius: 10px;
+       border: 2px solid #1cb8ff;
+       padding-right: 5px;
+       margin-left: -8px;
+       background-color: white;
+   }
+
+   .ui-widget-header {
+       height: 3px;
+       top:0;
+       left: 2px;
+       position: relative;
+       background-color: #1cb8ff}
+
+.slider + p#price {
+    float: left;
+    padding: 0;
+    font-size: 1rem;
+    margin-top: 2%;
+}
+
+#submit {
+    border: 0;
+    background-color: #25bbff;
+    float: right;
+    width: 35%;
+    height: 15%;
+    margin-right: 20%;
+    cursor: pointer;
+}
+
+.main {
+    width: 69%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.main > div{
+    width: 47%;
+    margin: 0 2% 2% 0;
+    height: 47.5%;
+    float: left;
+    border: 1px solid #e9e9e9;
+    position: relative;
+}
+
+.main > div:hover{
+    cursor: pointer;
+    width: 31%;
+    margin: 0 2% 2% 0;
+    height: 47.5%;
+    background-color: #57c2f2;
+    border: 1px solid #57c2f2;
+    opacity: 0.5;
+}
+
+img {
+    width: 100%;
+
+}
+
+h4, p {
+    padding: 0;
+    margin: 0;
+}
+.main .picture {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.main .description {
+    width: 100%;
+    height: 50%;
+}
+
+p {
+    display: inline-block;
+    padding: 0 18px;
+}
+
+h3 {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    padding: 18px;
+}
+
+#price {
+    float: right;
+}
+
+.mainCity {
+    display: block;
+    margin-top: -8%;
+ }
+}
